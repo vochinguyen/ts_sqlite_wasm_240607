@@ -13,7 +13,7 @@ async function load() {
         from: "inline",
         config: {
           serverMode: "full",
-          url: "example.sqlite3",
+          url: "https://vochinguyen.github.io/ts_sqlite_wasm_240607/example.sqlite3",
           requestChunkSize: 4096,
         },
       },
