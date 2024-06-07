@@ -24,6 +24,12 @@ Create a webpack config, minimal index.html file and TypeScript entry point:
 - index.html
 - src/index.ts
 
+**Fix error** in index.ts file, refer https://stackoverflow.com/questions/67718660/how-use-sql-js-httpvfs-library-in-gatsby
+
+```
+    url: "../example.sqlite3",
+```
+
 Finally, create a database:
 
 ```
