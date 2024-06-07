@@ -22,7 +22,9 @@ async function load() {
     wasmUrl.toString()
   );
 
-  const result = await worker.db.query(`select * from mytable`);
+  const result = await worker.db.query(
+    `select * from mytable where foo="hello"`
+  );
 
   document.body.textContent = JSON.stringify(result);
 }
